@@ -90,10 +90,10 @@ const NewsCard: React.FC<NewsCardProps> = ({ story, rank, onClick, onRefreshTran
           </div>
        </div>
 
-      {/* Refresh Button */}
+      {/* Refresh Button - Moved to Bottom Right */}
       <button 
         onClick={(e) => onRefreshTranslation(e, story)}
-        className="absolute top-3 right-12 p-1.5 text-gray-300 dark:text-gray-600 hover:text-orange-500 dark:hover:text-orange-400 hover:bg-orange-50 dark:hover:bg-gray-700 rounded-full transition-colors opacity-0 group-hover:opacity-100 z-20"
+        className="absolute bottom-4 right-4 p-2 text-gray-400 hover:text-orange-600 bg-white dark:bg-gray-800 hover:bg-orange-50 dark:hover:bg-gray-700 shadow-sm border border-gray-100 dark:border-gray-600 rounded-full transition-all opacity-0 group-hover:opacity-100 z-20 transform translate-y-2 group-hover:translate-y-0"
         title="Regenerate Title Translation"
       >
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
