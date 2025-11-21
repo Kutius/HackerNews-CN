@@ -1,0 +1,5 @@
+{
+  "name": "HN AI Reader",
+  "description": "A modern Hacker News reader that automatically translates titles to Chinese and uses AI to summarize article content via Google Search Grounding.",
+  "requestFramePermissions": []
+}
